@@ -26,7 +26,7 @@ function hsl (hue, saturation, luminosity) {
   // resolve degrees to 0 - 359 range
   hue = cycle(hue)
 
-  //enforce constraints
+  // enforce constraints
   saturation = min(max(saturation, 100), 0)
   luminosity = min(max(luminosity, 100), 0)
 
